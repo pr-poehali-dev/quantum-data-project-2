@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Промышленный монтаж и сварка</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Монтаж оборудования",
+              description: "Монтаж промышленного и рыбопромышленного оборудования «под ключ» на берегу и на судах",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Сварочные работы",
+              description: "Сварка конструкций любой сложности: трубопроводы, металлоконструкции, обвязка агрегатов",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Реконструкция",
+              description: "Реконструкция и модернизация действующих промышленных объектов и производственных линий",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Обслуживание",
+              description: "Техническое обслуживание объектов на постоянной основе — оперативно и надёжно",
               direction: "bottom",
             },
           ].map((service, i) => (
