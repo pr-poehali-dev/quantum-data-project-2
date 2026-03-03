@@ -78,7 +78,7 @@ export function ContactSection() {
                   <Icon name="MapPin" className="h-3 w-3 text-foreground/60" />
                   <span className="font-mono text-xs text-foreground/60">Регион</span>
                 </div>
-                <p className="text-base text-foreground md:text-2xl">Сахалинская область, Россия</p>
+                <p className="text-base text-foreground md:text-2xl">Сахалин · Работаем по всей России</p>
               </div>
 
               <div
